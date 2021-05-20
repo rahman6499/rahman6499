@@ -46,14 +46,15 @@
 	
 }
 .nav-links ul li:hover {			/* When ever the user will go over the navigation bar, each box contaning a different text, will be colored in #33ccff  */
-  background-color: #33ccff;
- `
+  	background-color: #33ccff;
 }
+
 .nav-links ul li a{					/* Remove any typeo of decoration such as underlines and changing the text colour to black */
 	color: #000;
 	text-decoration: none;
 
 }
+
 .information{						/* The information section, where the content wil be displayed */
 	width: 1000px;					/* Stateing the amount of space required */
 	height: 1000px;					/* Stateing the amount of space required */
@@ -84,11 +85,13 @@
 .feature img{						/* Resize images used in feature section*/
 	width: 70px
 }
+
 .feature{							/* Modifing the colour of the feature section and making sure the position is fixed */
 	position: absolute;
 	display: flex;					/* flex container expands items to fill available free space*/
 	color:#fff;
 }
+
 .feature div {						
 	margin-left: 30px;
 }
@@ -100,16 +103,19 @@
 	top:450px;
 	right:50px;
 }
+
 .two{								/* This the second feature section location, inside the circle*/
 	top:150px;
 	right:350px;
 	transform: rotate(-90deg);		/* The text and image will be rotated - 90 degrees*/
 }
+
 .three{								/* This the third feature section location , inside the circle*/
 	bottom:450px;
 	left:50px;
 	transform: rotate(-180deg);		/* The text and image will be rotated - 180 degrees*/
 }
+
 .four{								/* This the fourth feature section location , inside the circle*/
 	bottom:150px;
 	right:350px;
